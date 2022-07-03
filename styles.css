@@ -1,0 +1,55 @@
+/* css reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* header */
+
+header {
+    height: 10vh;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5%;
+
+    background-color: lightcoral;
+}
+
+/* main */
+
+main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5%;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    font-size: large;
+    height: 8vh;
+    flex-shrink: 0;
+}
+
+footer a {
+    font-size: large;
+    text-decoration: none;
+}
